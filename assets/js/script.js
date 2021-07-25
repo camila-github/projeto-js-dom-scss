@@ -1,5 +1,5 @@
 const colorPalette = document.getElementById('color-palette');
-const IMG_PATH = './assets/img/animacao.gif'
+const IMG_PATH = 'https://github.com/camila-github/projeto-js-dom-scss/blob/main/assets/img/animacao.gif'
 let currentElem;
 
 function notification(msg) {
