@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  border: none;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-overflow-scrolling: touch;
+  font-family: "Mulish", sans-serif;
+}
+
+*:focus {
+  outline: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: #e8ecf3;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+.alert {
+  position: fixed;
+  top: 10px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  padding: 18px 42px;
+  background: #0c1226;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 30px;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: 300ms all;
+  transition: 300ms all;
+}
+
+.alert.active {
+  top: 20px;
+  opacity: 1;
+  visibility: visible;
+}
+
+h3 {
+  font-size: 34px;
+  font-weight: bold;
+  color: #0c1226;
+}
+
+section.color-palette {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+section.color-palette div {
+  margin: 0 15px;
+  width: 207px;
+  height: 329px;
+  background: #fff;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 10px;
+  cursor: pointer;
+  position: relative;
+  top: 0;
+  -webkit-transition: 300ms all;
+  transition: 300ms all;
+}
+
+section.color-palette div:hover {
+  -webkit-box-shadow: 0 15px 42px -12px #a8b2c3;
+          box-shadow: 0 15px 42px -12px #a8b2c3;
+  top: -10px;
+}
+
+section.color-palette div input {
+  position: absolute;
+  opacity: 0;
+  left: -99999px;
+}
+
+section.color-palette div .color {
+  width: 100%;
+  height: 251px;
+  background: var(--color);
+  border-radius: 5px;
+  margin-bottom: 20px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+
+section.color-palette div .text {
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+  color: #0c1226;
+}
+
+.action {
+  text-align: center;
+}
+
+.action button {
+  width: 393px;
+  height: 68px;
+  background: #7e6cca;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.action p {
+  font-size: 18px;
+  color: #0c1226;
+  line-height: 29px;
+}
+
+.shortcut-text {
+  background: #fff;
+  padding: 9px 20px;
+  font-size: 16px;
+  color: #0c1226;
+}
+
+.animation {
+    width: 120px;
+    height: 120px;
+    /* O atributo 'position' faz com que a imagem fique na 
+    frente da cor. O atributo 'transform' posiciona a imagem 
+    na tela (primeiro px(50px) é referente a parte horizontal, 
+    o segundo px(60px) é referente a parte vertical
+    */
+    position: absolute;
+    transform: translate(40px, 60px);
+  }
+
+
+/*# sourceMappingURL=style.css.map */
