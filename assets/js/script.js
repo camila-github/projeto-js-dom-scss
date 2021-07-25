@@ -1,5 +1,5 @@
 const colorPalette = document.getElementById('color-palette');
-const IMG_PATH = '/assets/img/animacao.json'
+const IMG_PATH = '/assets/img/animacao.gif'
 let currentElem;
 
 function notification(msg) {
@@ -58,16 +58,7 @@ function generateColorPalette() {
 
         divEl.innerHTML = `
         <span class="color" style="--color:${color}"></span>
-        <lottie-player 
-            class="animation"
-            src="${IMG_PATH}"
-            mode="bounce"
-            background="transparent"
-            speed="1"            
-            loop
-            autoplay
-            alt="Animacao"
-        ></lottie-player>
+        <img class="animation" src="${IMG_PATH}" alt="Animacao"></img>
         <span class="text">${color}</span>
         <input name="color" value="${color}"></input>
         `

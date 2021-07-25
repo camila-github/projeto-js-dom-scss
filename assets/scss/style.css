@@ -150,7 +150,8 @@ section.color-palette div .text {
     o segundo px(60px) é referente a parte vertical
     */
     position: absolute;
-    transform: translate(40px, 60px);
+    transform: translate(30px, 60px);
+    border-radius: 50%;
   }
 
 
