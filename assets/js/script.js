@@ -1,5 +1,5 @@
 const colorPalette = document.getElementById('color-palette');
-const IMG_PATH = '/assets/img/animacao.jpg'
+const IMG_PATH = './assets/img/animacao.jpg'
 let currentElem;
 
 function notification(msg) {
