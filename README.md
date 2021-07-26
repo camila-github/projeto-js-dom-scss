@@ -7,7 +7,6 @@
 - SCSS (Sassy Cascadig Style Sheets).
 - Lite-Server, para monitorar as mudanças no arquivo '.scss'.
 - Grid Layout (CSS - SCSS)
-- Biblioteca com imagens com animações (LottieFiles)
 - JavaScript usado para criação de tag
 - Uso de DOM (Document Object Model)
 
