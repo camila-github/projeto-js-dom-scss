@@ -119,9 +119,11 @@ section.color-palette div .text {
 .action button {
   width: 393px;
   height: 68px;
-  background: #7e6cca;
+  
+  background: linear-gradient(#5d26d3, #a0d670, #eb5c07, #34d9dd, #c4212b, #222a14 );
+
   border-radius: 5px;
-  color: #fff;
+  color:#0c1226;
   font-size: 18px;
   font-weight: bold;
   cursor: pointer;
