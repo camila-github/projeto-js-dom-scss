@@ -28,6 +28,9 @@
 - Referencia para o projeto: Prototurk 
 
     [https://www.youtube.com/watch?v=V5oCDP4THQc&list=PLfAfrKyDRWrGze_1T1bUU0qA9RknVKI5J&index=19"](https://www.youtube.com/watch?v=V5oCDP4THQc&list=PLfAfrKyDRWrGze_1T1bUU0qA9RknVKI5J&index=19")
+    
+## Site publicado no link abaixo
+[https://camila-github.github.io/projeto-js-dom-scss/](https://camila-github.github.io/projeto-js-dom-scss/)
 
 ## Vídeo de demonstração do aplicativo
 
