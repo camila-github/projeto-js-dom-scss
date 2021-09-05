@@ -32,5 +32,5 @@
 ## Vídeo de demonstração do aplicativo
 
 <p align="center">
-   <img src=""/>
+   <img src="https://github.com/camila-github/projeto-js-dom-scss/blob/main/docs/video-.gif"/>
 </p>
