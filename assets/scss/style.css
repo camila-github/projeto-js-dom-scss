@@ -65,9 +65,11 @@ section.color-palette {
 section.color-palette div {
   margin: 0 15px;
   width: 207px;
-  height: 329px;
+  height: 290px;
   background: #fff;
-  border-radius: 10px;
+  border-top-left-radius: 45%; 
+  border-bottom-right-radius: 45%; 
+  border: 5px double #5e78a5;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -75,7 +77,7 @@ section.color-palette div {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding: 10px;
+  padding: 15px;
   cursor: pointer;
   position: relative;
   top: 0;
@@ -84,8 +86,8 @@ section.color-palette div {
 }
 
 section.color-palette div:hover {
-  -webkit-box-shadow: 0 15px 42px -12px #a8b2c3;
-          box-shadow: 0 15px 42px -12px #a8b2c3;
+  -webkit-box-shadow: 0 25px 52px -22px #154aa7;
+          box-shadow: 0 25px 52px -22px #154aa7;
   top: -10px;
 }
 
@@ -97,12 +99,10 @@ section.color-palette div input {
 
 section.color-palette div .color {
   width: 100%;
-  height: 251px;
+  height: 151px;
   background: var(--color);
-  border-radius: 5px;
-  margin-bottom: 20px;
-  border-top-left-radius: 50px;
-  border-top-right-radius: 50px;
+  border-radius: 50%;
+  margin-bottom: 10px;
 }
 
 section.color-palette div .text {
@@ -110,19 +110,20 @@ section.color-palette div .text {
   font-size: 22px;
   font-weight: bold;
   color: #0c1226;
+  margin-top: 70px;
 }
+
+
 
 .action {
   text-align: center;
 }
 
 .action button {
-  width: 393px;
-  height: 68px;
-  
-  background: linear-gradient(#5d26d3, #a0d670, #eb5c07, #34d9dd, #c4212b, #222a14 );
-
-  border-radius: 5px;
+  width: 293px;
+  height: 58px;  
+  background: linear-gradient(#db0606, #0c5557,  #9c0a5a , #ecf009);
+  border-radius: 30px;
   color:#0c1226;
   font-size: 18px;
   font-weight: bold;
@@ -130,8 +131,9 @@ section.color-palette div .text {
   margin-bottom: 20px;
 }
 
-.action p {
-  font-size: 18px;
+.action img {
+  width: 180px;
+  height: 50px;
   color: #0c1226;
   line-height: 29px;
 }
@@ -141,6 +143,7 @@ section.color-palette div .text {
   padding: 9px 20px;
   font-size: 16px;
   color: #0c1226;
+  border-radius: 30px;
 }
 
 .animation {
@@ -152,7 +155,7 @@ section.color-palette div .text {
     o segundo px(60px) é referente a parte vertical
     */
     position: absolute;
-    transform: translate(30px, 60px);
+    transform: translate(30px, 90px);
     border-radius: 50%;
   }
 

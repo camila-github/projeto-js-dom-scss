@@ -58,19 +58,21 @@ section.color-palette {
   div {
     margin: 0 15px;
     width: 207px;
-    height: 329px;
+    height: 290px;
     background: #fff;
-    border-radius: 10px;    
+    border-top-left-radius: 45%; 
+    border-bottom-right-radius: 45%;
+    border: 5px double #5e78a5;   
     display: flex;
     flex-direction: column;
-    padding: 10px;
+    padding: 15px;
     cursor: pointer;
     position: relative;
     top: 0;
     transition: 300ms all;
 
     &:hover{
-        box-shadow: 0 15px 42px -12px #a8b2c3;
+        box-shadow: 0 25px 52px -22px #154aa7;
         top: -10px;
     }
 
@@ -82,13 +84,10 @@ section.color-palette {
 
     .color {
       width: 100%;
-      height: 251px;
+      height: 151px;
       background: var(--color);      
-      margin-bottom: 20px;      
-      border-radius: 5px;
-      border-top-left-radius: 50px;
-      border-top-right-radius: 50px;
-  
+      margin-bottom: 10px;      
+      border-radius: 50%;
     }
 
     .text {
@@ -96,6 +95,7 @@ section.color-palette {
       font-size: 22px;
       font-weight: bold;
       color: #0c1226;
+      margin-top: 70px;
     }
   }
 }
@@ -103,21 +103,22 @@ section.color-palette {
 .action {
   text-align: center;
   button {
-    width: 393px;
-    height: 68px;
-    background: #7e6cca;
-    border-radius: 5px;
-    color: #fff;
+    width: 293px;
+    height: 58px;
+    background: linear-gradient(#db0606, #0c5557,  #9c0a5a , #ecf009);
+    border-radius: 30px;
+    color:#0c1226;
     font-size: 18px;
     font-weight: bold;
     cursor: pointer;
     margin-bottom: 20px;
   }
 
-  p {
-    font-size: 18px;
-    color: #0c1226;
-    line-height: 29px;
+  img {
+      width: 180px;
+      height: 50px;
+      color: #0c1226;
+      line-height: 29px;
   }
 }
 
@@ -126,6 +127,7 @@ section.color-palette {
   padding: 9px 20px;
   font-size: 16px;
   color: #0c1226;
+  border-radius: 30px;
 }
 
 .animation {
@@ -137,7 +139,7 @@ section.color-palette {
   o segundo px(60px) é referente a parte vertical
   */
   position: absolute;
-  transform: translate(30px, 60px);
-    border-radius: 50%;
+  transform: translate(30px, 90px);
+  border-radius: 50%;
 }
 

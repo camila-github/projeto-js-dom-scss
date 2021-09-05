@@ -2,7 +2,7 @@ const colorPalette = document.getElementById('color-palette');
 const IMG_PATH = './assets/img/animacao.jpg'
 let currentElem;
 
-function notification(msg) {
+const notification = (msg) => {
     
     let old_div = document.querySelector('.alert');
     if (old_div) old_div.parentNode.removeChild(old_div);
@@ -16,7 +16,7 @@ function notification(msg) {
     setTimeout(() => div.classList.remove('active'), 2000);
 }
 
-function generateColorPalette() {
+const generateColorPalette = () => {
     colorPalette.innerHTML='';
     
     for (let i = 1; i <= 5; i++) {
@@ -57,10 +57,10 @@ function generateColorPalette() {
         let divEl = document.createElement('div');
 
         divEl.innerHTML = `
-        <span class="color" style="--color:${color}"></span>
-        <img class="animation" src="${IMG_PATH}" alt="Animacao"></img>
-        <span class="text">${color}</span>
-        <input name="color" value="${color}"></input>
+            <span class="color" style="--color:${color}"></span>
+            <img class="animation" src="${IMG_PATH}" alt="Animacao"></img>
+            <span class="text">${color}</span>
+            <input name="color" value="${color}"></input>
         `
         colorPalette.appendChild(divEl);
 
@@ -75,7 +75,7 @@ function generateColorPalette() {
     }
 }
 
-function generateColor(){
+const generateColor = () => {
     let str = 'abcdef0123456789';
     let color = '#';
     for (let i = 0; i <= 5; i++) color += str[Math.floor(Math.random() * str.length)];
@@ -84,7 +84,7 @@ function generateColor(){
 
 window.onload = () => document.addEventListener("keypress", addEventListener);
 
-const addEventListener = (event) => {
+function addEventListener (event) {
     if (event.keyCode === 32) {
         generateColorPalette();
     }else if (event.keyCode === 99 && currentElem) {

@@ -11,11 +11,7 @@
 - Uso de DOM (Document Object Model)
 
 
-##### LINKS DE REFERENCIA:
-
-- Imagens com animações: LottieFiles 
-
-    [https://lottiefiles.com/](https://lottiefiles.com/)
+#### Links de Referencia
 
 - DOM 
 
@@ -23,18 +19,18 @@
 
     [https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model)
 
-- Referencia para o projeto: Prototurk 
-
-    [https://www.youtube.com/watch?v=V5oCDP4THQc&list=PLfAfrKyDRWrGze_1T1bUU0qA9RknVKI5J&index=19"](https://www.youtube.com/watch?v=V5oCDP4THQc&list=PLfAfrKyDRWrGze_1T1bUU0qA9RknVKI5J&index=19")
-
 - Grid Layout 
 
     [http://flexboxgrid.com/](http://flexboxgrid.com/)
 
     [https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Grid_Layout/Relationship_of_Grid_Layout#grid_e_flexbox](https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Grid_Layout/Relationship_of_Grid_Layout#grid_e_flexbox)
 
+- Referencia para o projeto: Prototurk 
 
-## Site publicado no link abaixo:
+    [https://www.youtube.com/watch?v=V5oCDP4THQc&list=PLfAfrKyDRWrGze_1T1bUU0qA9RknVKI5J&index=19"](https://www.youtube.com/watch?v=V5oCDP4THQc&list=PLfAfrKyDRWrGze_1T1bUU0qA9RknVKI5J&index=19")
 
-[https://camila-github.github.io/projeto-js-dom-scss/](https://camila-github.github.io/projeto-js-dom-scss/)
+## Vídeo de demonstração do aplicativo
 
+<p align="center">
+   <img src=""/>
+</p>
